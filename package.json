@@ -17,5 +17,17 @@
   "bugs": {
     "url": "https://github.com/mehediScriptDev/mongoWithPrisma/issues"
   },
-  "homepage": "https://github.com/mehediScriptDev/mongoWithPrisma#readme"
+  "homepage": "https://github.com/mehediScriptDev/mongoWithPrisma#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "nodemon": "^3.1.14",
+    "validator": "^13.15.26"
+  },
+  "devDependencies": {
+    "prisma": "^7.5.0"
+  }
 }
