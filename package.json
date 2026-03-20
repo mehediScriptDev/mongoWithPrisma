@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/mehediScriptDev/mongoWithPrisma#readme",
   "dependencies": {
+    "@prisma/client": "^7.5.0",
     "bcryptjs": "^3.0.3",
     "cookie-parser": "^1.4.7",
     "dotenv": "^17.3.1",
