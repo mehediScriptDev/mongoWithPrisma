@@ -16,6 +16,8 @@ exports.signup = async (req, res) => {
         password,
       },
     });
+
+    cookieToken(user, res);
   } catch (error) {
     throw new Error(error);
   }
